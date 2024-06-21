@@ -1,0 +1,37 @@
+.collapsible-button {
+    cursor: pointer;
+}
+
+.collapsible-content {
+    display: none;
+}
+
+.collapsible-content-visible {
+    display: block;
+}
+#quizContainer {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.quiz-visible {
+    display: block;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options {
+    display: none;
+}
+
+.options.visible {
+    display: block;
+}
+
+.option {
+    margin-bottom: 5px;
+}
